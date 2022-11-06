@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Data Labeler",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "notifications",
+        "scripting", 
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "host_permissions": ["http://127.0.0.1:8000/*"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js" : ["scripts/hover.js"],
+            "css" : ["scripts/hover.css"],
+            "run_at": "document_end",
+            "all_frames": true
+        },
+        {
+            "matches": ["<all_urls>"],
+            "js" : ["scripts/content.js"],
+            "css" : ["scripts/content.css"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ]
+}
