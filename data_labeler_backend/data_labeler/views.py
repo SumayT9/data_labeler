@@ -4,26 +4,9 @@ import requests
 from lxml import html
 from lxml.html.clean import Cleaner
 import os
+import json
 
-
-def send_xpaths(request):
-    url = request.GET.get("query")
-    sitename = url.split("/")[2]
-    response = {"field" :[], "xpath" : [], "renderPath": []}
-    if sitename + ".txt" in os.listdir("../data_paths/"):
-        with open("../data_paths/" + sitename + ".txt") as xpath_file:
-            for line in xpath_file.readlines():
-                field, xpath, render_path = line.split("|")
-                response["field"].append(field)
-                response["xpath"].append(xpath)
-                response["renderPath"].append(render_path)
-    print(response)
-    return JsonResponse(response)
-
-
-    
-
-
+from data_labeler.wrapper import WrapperInductor
 
 def set_field(request):
     label = request.GET.get("label")
@@ -33,43 +16,68 @@ def set_field(request):
     data  = {"raw" : "successful label change"}
     return JsonResponse(data)
 
-def write_to_file(request):
+def train_wrapper(request):
     data = request.GET.get("text").split("|")
     text = data[0]
     url = data[1]
-    render_path = data[2]
     sitename = url.split("/")[2]
-    xpath = extract_xpath(url, text)
     field = ""
     with open("../data_paths/labels.txt", "r") as name_file:
         field = str(name_file.readline())
-    with open("../data_paths/" + sitename + ".txt", "a") as data_file:
-        data_file.write(field + "|" + xpath + "|" + render_path + "\n")
+    wrapper_data = {
+        "urls" : [],
+        "texts" : [],
+        "labels" : []
+    }
+    if sitename + ".json" in os.listdir("../data_paths"):
+        with open("../data_paths/" + sitename + ".json", "r") as wrapper_file:
+            wrapper_data = json.load(wrapper_file)
+    
+    wrapper_data["urls"].append(url)
+    wrapper_data["texts"].append(text)
+    wrapper_data["labels"].append(field)
+    
+    train_dict = {}
+    for i in range(len(wrapper_data["urls"])):
+        if wrapper_data["urls"][i] not in train_dict:
+            train_dict[wrapper_data["urls"][i]] = {"texts" : [], "labels" : []}
+        
+        train_dict[wrapper_data["urls"][i]]["texts"].append(wrapper_data["texts"][i])
+        train_dict[wrapper_data["urls"][i]]["labels"].append(wrapper_data["labels"][i])
+
+    urls = list(train_dict.keys())
+    texts = [data["texts"] for _, data in train_dict.items()]
+    labels = [data["labels"] for _, data in train_dict.items()]
+
+    print(texts)
+    
+
+
+
+    wi = WrapperInductor(urls=urls, texts=texts, labels=labels)
+    wi.save("../data_paths/" + sitename + "_wrapper.json")
+
+
+    with open("../data_paths/" + sitename + ".json", "w") as data_file:
+        json.dump(wrapper_data, data_file)
 
     data  = {"raw" : "successful"}
     return JsonResponse(data)
 
-def extract_xpath(url, text_data):
-    print("extracting xpath")
-    page = requests.get(url)
-    tree = html.fromstring(page.text)
-    xpath = ""
-    site_text = text_data.strip().replace("\n", "").replace(" ", "")
-    with open("base.txt", "w") as base_file:
-        base_file.write(site_text)
-    for tag in tree.iter():
-        try:
-            if tag.text_content() and tag.tag not in ["script", "noscript", "comment"]:
-                tag_text = tag.text_content().strip().replace("\n", "").replace(" ", "")
-                with open("tag.txt", "a") as f:
-                    f.write(tag_text)
-                if tag_text == site_text:
-                    if tag.tag == "li":
-                        tag = tag.getparent()
-                    xpath = tag.getroottree().getpath(tag)
-                    print(xpath)
-                    return xpath
-        except:
-            continue
-    return xpath
+def extract_text(request):
+    url = request.GET.get("query")
+    sitename = url.split("/")[2]
+    wi = WrapperInductor(wrapper_file="../data_paths/" + sitename + "_wrapper.json")
+    data = wi.extract_text(url)
+    print(data)
+    return JsonResponse(data)
+    
+def debug(request):
+    text = request.GET.get("query")
+    with open("fails.txt", "a") as file:
+        file.write(text + "\n" + "____________________________")
+    return JsonResponse({"raw" : "W"})
+
+
+
     

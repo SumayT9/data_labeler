@@ -19,7 +19,8 @@ from data_labeler import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("data_labeler/write/",views.write_to_file, name="data_labeler"),
+    path("data_labeler/write/",views.train_wrapper, name="data_labeler"),
     path("data_labeler/set_field/",views.set_field, name="setname"),
-    path("data_labeler/get_paths/",views.send_xpaths, name="sendpaths")
+    path("data_labeler/extract_text/",views.extract_text, name="gettext"),
+    path("data_labeler/debug/",views.debug, name="debug")
 ]

@@ -25,7 +25,22 @@ var response;
 				.then(response => response.json())
 				.then(response => sendResponse({farewell:response}))
 				.catch(error => console.log(error))
-			  }
+			}
+			else if (request.url){
+				url = serverhost + '/data_labeler/extract_text/?query='+ encodeURIComponent(request.url);
+				fetch(url)
+				.then(response => response.json())
+				.then(response => sendResponse({farewell:response}))
+				.catch(error => console.log(error))
+
+			} else if (request.debug){
+				url = serverhost + '/data_labeler/debug/?query='+ encodeURIComponent(request.debug);
+				fetch(url)
+				.then(response => response.json())
+				.then(response => sendResponse({farewell:response}))
+				.catch(error => console.log(error))
+
+			}
 			
 			return true;  // Will respond asynchronously.
 		  

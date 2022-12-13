@@ -1,0 +1,185 @@
+{
+  "stanford": {
+    "train": {
+      "urls": [
+        "https://profiles.stanford.edu/fei-fei-li",
+        "https://profiles.stanford.edu/joel-neal"
+      ],
+      "texts": [
+        [
+          "Dr. Fei-Fei Li is the inaugural Sequoia Professor in the Computer Science Department at Stanford University, and Co-Director of Stanford’s Human-Centered AI Institute. She served as the Director of Stanford’s AI Lab from 2013 to 2018. And during her sabbatical from Stanford from January 2017 to September 2018, she was Vice President at Google and served as Chief Scientist of AI/ML at Google Cloud. Dr. Fei-Fei Li obtained her B.A. degree in physics from Princeton in 1999 with High Honors, and her PhD degree in electrical engineering from California Institute of Technology (Caltech) in 2005. She also holds a Doctorate Degree (Honorary) from Harvey Mudd College. Dr. Li joined Stanford in 2009 as an assistant professor. Prior to that, she was on faculty at Princeton University (2007-2009) and University of Illinois Urbana-Champaign (2005-2006). Dr. Fei-Fei Li’s current research interests include cognitively inspired AI, machine learning, deep learning, computer vision and AI+healthcare especially ambient intelligent systems for healthcare delivery. In the past she has also worked on cognitive and computational neuroscience. Dr. Li has published more than 200 scientific articles in top-tier journals and conferences, including Nature, PNAS, Journal of Neuroscience, CVPR, ICCV, NIPS, ECCV, ICRA, IROS, RSS, IJCV, IEEE-PAMI, New England Journal of Medicine, Nature Digital Medicine, etc. Dr. Li is the inventor of ImageNet and the ImageNet Challenge, a critical large-scale dataset and benchmarking effort that has contributed to the latest developments in deep learning and AI. In addition to her technical contributions, she is a national leading voice for advocating diversity in STEM and AI. She is co-founder and chairperson of the national non-profit AI4ALL aimed at increasing inclusion and diversity in AI education. Dr. Li is an elected Member of the National Academy of Engineering (NAE), the National Academy of Medicine (NAM) and American Academy of Arts and Sciences (AAAS). She is also a Fellow of ACM, a member of the Council on Foreign Relations (CFR), a recipient of the 2022 IEEE PAMI Thomas Huang Memorial Prize, 2019 IEEE PAMI Longuet-Higgins Prize, 2019 National Geographic Society Further Award, 2017 Athena Award for Academic Leadership, IAPR 2016 J.K. Aggarwal Prize, the 2016 IEEE PAMI Mark Everingham Award, the 2016 nVidia Pioneer in AI Award, 2014 IBM Faculty Fellow Award, 2011 Alfred Sloan Faculty Award, 2012 Yahoo Labs FREP award, 2009 NSF CAREER award, the 2006 Microsoft Research New Faculty Fellowship, among others. Dr. Li is a keynote speaker at many academic or influential conferences, including the World Economics Forum (Davos), the Grace Hopper Conference 2017 and the TED2015 main conference. Work from Dr. Li's lab have been featured in a variety of magazines and newspapers including New York Times, Wall Street Journal, Fortune Magazine, Science, Wired Magazine, MIT Technology Review, Financial Times, and more. She was selected as a 2017 Women in Tech by the ELLE Magazine, a 2017 Awesome Women Award by Good Housekeeping, a Global Thinker of 2015 by Foreign Policy, and one of the “Great Immigrants: The Pride of America” in 2016 by the Carnegie Foundation, past winners include Albert Einstein, Yoyo Ma, Sergey Brin, et al.(Dr. Li publishes under the name L. Fei-Fei)",
+          "Professor (By courtesy), Operations, Information & Technology",
+          "Co-Director, Stanford Institute of Human-Centered AI (HAI) (2019 - Present)",
+          "Thomas S. Huang Memorial Prize, IEEE PAMI (2022)",
+          "B.A., Princeton University, Physics (1999)"
+        ],
+        [
+          "Dr. Neal holds a medical degree and a doctoral degree in Tumor Cell Biology from Northwestern University in Chicago, Illinois. Subsequently, he completed a fellowship in oncology, rotating through the Dana-Farber Cancer Institute and Massachusetts General Hospital in Boston, Massachusetts. He is currently an Associate Professor in the Division of Oncology at the Stanford Cancer Institute at Stanford University in Palo Alto, California. Dr Neal’s primary clinical interest is in thoracic oncology. In addition to maintaining an active practice, he focuses on the design and conduct of clinical trials involving targeted therapies and immunotherapy for lung cancer and mesothelioma. He has published dozens of articles in the field of thoracic oncology, including in Lancet Oncology, Nature Medicine, and the Journal of Clinical Oncology. He is a member of the International Association of the Study of Lung Cancer (IALSC), is a study chair and thoracic core committee member within the ECOG-ACRIN cooperative group, and has presented at a number of American Society of Clinical Oncology (ASCO) annual meetings.",
+          "Associate Professor - University Medical Line, Medicine - Oncology",
+          "Residency: Beth Israel Deaconess Medical Center Internal Medicine Residency (2007) MA"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Academic Appointments",
+          "Administrative Appointments",
+          "Awards",
+          "Education"
+        ],
+        ["Biography", "Academic Appointments", "Education"]
+      ]
+    },
+    "test" : {
+        "url" : "https://profiles.stanford.edu/ehsan-adeli",
+        "Biography" : "My research lies at the intersection of machine learning, computer vision, healthcare, and computational neuroscience. I work on automatic analysis of human activities and behaviors from videos and connecting how humans perform actions to the brain by analyzing magnetic resonance images (MRIs). I explore explainable machine learning algorithms for understanding the underlying factors of neurodegenerative and neuropsychiatric diseases on the brain as well as their ramifications for everyday life.",
+        "Academic Appointments" : "Member, Wu Tsai Human Performance Alliance",
+        "Administrative Appointments" : "Associate Editor, IEEE Journal of Biomedical and Health Informatics (2020 - Present)",
+        "Awards" : "REC Fellow, Stanford University Alzheimer's Disease Research Center (ADRC) (2020-2022)",
+        "Education" : "Graduate Research Scholar, Carnegie Mellon University, Computer Vision (2012)"
+
+
+    }
+  },
+  "Berkeley": {
+    "train": {
+      "urls": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html",
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html",
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/anantharam.html"
+      ],
+      "texts": [
+        [
+          "Professor Pieter Abbeel is Director of the Berkeley Robot Learning Lab and Co-Director of the Berkeley Artificial Intelligence (BAIR) Lab. Abbeel’s research strives to build ever more intelligent systems, which has his lab push the frontiers of deep reinforcement learning, deep imitation learning, deep unsupervised learning, transfer learning, meta-learning, and learning to learn, as well as study the influence of AI on society. His lab also investigates how AI could advance other science and engineering disciplines. Abbeel's Intro to AI class has been taken by over 100K students through edX, and his Deep RL and Deep Unsupervised Learning materials are standard references for AI researchers. Abbeel has founded three companies: Gradescope (AI to help teachers with grading homework and exams), Covariant (AI for robotic automation of warehouses and factories), and Berkeley Open Arms (low-cost, highly capable 7-dof robot arms), advises many AI and robotics start-ups, and is a frequently sought after speaker worldwide for C-suite sessions on AI future and strategy. Abbeel has received many awards and honors, including the PECASE, NSF-CAREER, ONR-YIP, Darpa-YFA, TR35. His work is frequently featured in the press, including the New York Times, Wall Street Journal, BBC, Rolling Stone, Wired, and Tech Review.",          
+          "2008, Ph.D., Computer Science, Stanford University",          
+          "IEEE Kiyo Tomiyasu Award, 2022"
+        ],
+        [
+          "Andrew Carnegie Fellowship, 2022"
+        ],
+        [
+          "He received his B.Tech in Electrical Engineering from the Indian Institute of Technology, 1980, a M.S. in EE from UC Berkeley, 1982, a M.A. in Mathematics, UC Berkeley, 1983, a C.Phil in Mathematics, UC Berkeley, 1984 and a Ph.D. in EE, UC Berkeley, 1986. Prior to joining the faculty of EECS in 1994, he was a member of the faculty at Cornell University.",
+          "1982, M.S., Electrical Engineering, University of California, Berkeley",
+          "IEEE ComSoc Stephen O. Rice Prize, 2000"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Education",
+          "Awards"
+        ],
+        ["Awards"],
+        [
+          "Biography",
+          "Education",
+          "Awards"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www2.eecs.berkeley.edu/Faculty/Homepages/gopala.html",
+        "Biography" : "Gopala Anumanchipalli received a B.Tech and MS in Computer Science from IIIT Hyderabad in 2008, and a Ph.D in Language and Information Technologies from Carnegie Mellon University, and a Ph.D in Electrical and Computer Engineering from IST, Lisbon. After Postdoctoral training and being a Full Researcher at Dept. of Neurosurgery at UCSF, he joined the faculty of the Department of Electrical Engineering and Computer Sciences at UC Berkeley in Spring 2021 and continues to hold an adjunct position at Dept. of Neurosurgery at UC San Francisco. He works at the intersection of Speech Processing, Neuroscience, and Artificial Intelligence with an emphasis on human-centered speech and Assistive technologies, including new paradigms for bio-inspired spoken language technologies, automated methods for early diagnosis, characterizing and rehabilitating disordered speech. With colleagues at UCSF, he also develops methods to advance our understanding of the neural mechanisms underlying speech/ language function in healthy people and Brain-Computer Interfaces to externally decode speech and language directly from the brain to augment lost function in paralyzed patients.",
+        "Awards" : "Rose Hills Innovator Program, 2021",
+        "Education" : "2008, B.Tech and M.S., Computer Science, International Institute of Information Technology, Hyderabad, India"
+
+
+    }
+  },
+  "CMU": {
+    "train": {
+      "urls": [
+        "https://www.ece.cmu.edu/directory/bios/amvrosiadis-george.html",
+        "https://www.ece.cmu.edu/directory/bios/brumley-david.html",
+        "https://www.ece.cmu.edu/directory/bios/carley-rick.html"
+      ],
+      "texts": [
+        [
+          "George is an Assistant Research Professor of Electrical and Computer Engineering at Carnegie Mellon University, with a courtesy appointment in the Computer Science Department, and a member of the Parallel Data Lab. His research focuses on distributed systems, operating systems, and data analysis. He co-teaches two popular graduate-level courses on advanced cloud computing and storage systems. He received his Ph.D. from the University of Toronto.",
+          "Ph.D., 2016 Computer Science University of Toronto, Canada",          
+          "High performance computing"
+        ],
+        [
+          "David Brumley is an Associate Professor at Carnegie Mellon University with a primary appointment in the Electrical and Computer Engineering Department and a courtesy appointment in the Computer Science Department. He is also the previous Director of CyLab, the CMU Security and Privacy Institute. His research focuses on software security.",
+          "Ph.D.Computer Science Carnegie Mellon University",
+          "Cyber-autonomy"
+        ],
+        [
+          "L. Richard Carley joined the faculty of the Department of Electrical and Computer Engineering at Carnegie Mellon University in 1984 and has been a major contributor to the research and educational missions of that department. Prior to joining Carnegie Mellon, Carley received his S.B. (1976), S.M. (1978) and Ph.D. (1984) in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology. He has been a key member of the Data Storage Systems Center (DSSC), where he served as associate director for electronic subsystems. He has also been a long standing contributor in the area of analog circuit design most recently participating in the Center for Circuits and Systems Solutions (C2S2).",
+          "Ph.D., 1984 Massachusetts Institute of Technology",
+          "CAD and design of analog signal processing circuits and MEMS systems",
+          "Research interests include:"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Education",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Education",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Education",
+          "Research Areas",
+          "Research Interests"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.ece.cmu.edu/directory/bios/fedder-gary.html",
+        "Biography" : "Dr. Fedder arrived at the university in 1994 with a joint faculty appointment in the Department of Electrical and Computer Engineering and The Robotics Institute. He currently is the Vice Provost of Research, Howard M. Wilkoff Professor in ECE, professor in Robotics and has courtesy faculty appointments in Mechanical Engineering and Biomedical Engineering. He previously served in administrative roles as Director of the Institute for Complex Engineered Systems (2006-2013, now known as the Engineering Research Accelerator), as Associate Dean for Research in the College of Engineering (2013-2015) and as Interim Chief Executive Officer for the Advanced Robotics for Manufacturing Institute (2/2017-1/2018).",
+        "Research Interests" : "Professor Fedder's research interests are in the multidisciplinary area of microelectromechanical systems (MEMS), and focus primarily on design, fabrication, and control aspects of sensor- and actuator-based systems. In MEMS, micron- to millimeter-size systems with sophisticated abilities to interact with their environment are manufactured through the use of VLSI-based photolithographic batch fabrication methods. Current research activities include micro-sensor and microactuator design; microrobotic control and manipulation; embedded microinstruments; nanometer-scale, probe-based data storage; and structured design methodologies for MEMS. Professor Fedder's group is designing a variety of MEMS, including microaccelerometers, gyroscopes, resonant sensors, and x-y-z microservos, using a unique process that combines foundry CMOS with thin film microstructures. Research in MEMS computer-aided design aims to develop structured design tools and a top-down synthesis flow. Continuing research will study control of large systems of microsensors and actuators, and broaden the manufacturing capabilities of integrated MEMS.",
+        "Research Areas" : "Microelectromechanical systems (MEMS)",
+        "Education": "Ph.D., 1994Electrical Engineering and Computer Science University of California, Berkeley"
+
+
+    }
+  },
+  "Harvard": {
+    "train": {
+      "urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/610",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/71748",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/196932"
+      ],
+      "texts": [
+        [
+          "University of Minnesota, Minneapolis BS 1995 Computer Science",
+          "I have over 13 years of experience in translating research advances in computer science into medicine. For many people computers are just passive boxes that sit on desks. But for me the computer is an active part of the world around it. It observes the environment and acts based on its observations and the intentions of users. I develop systems that are not mere tools but are interactive parts of their environment that extend human capabilities. To harness the potential of these systems, interfaces must be developed between the artificial system and its human collaborator. Toward that end, my research career has spanned the areas of computer vision, image analysis, robotics, artificial intelligence (specifically machine learning), and user interfaces.My long term goal has been to explore the use of computing and robotics to improve clinical applications and ultimately benefit patients. Computer aided medicine has the potential to change the face of medicine by enhancing clinical skills, expediting procedures, and providing novel diagnostics tools. Unfortunately, over the years I have seen implementation lag far behind the science of computing and its underlying mathematics. For my part I have tried to address this through collaboration with clinicians to identify areas that could benefit from improved user interfaces, robotics instrumentation, and qualitative information improvements derived from image processing and analysis, machine learning and mathematical modeling.I use my expertise to support the development of enhancements to cardiac imaging at Boston Children’s Hospital. The long term goal is that the imaging enchantments and analysis methods I provide will have a positive impact on the diagnosis, preoperative planning, and intervention (through real time methods) of congenital heart disease. I have found the interdisciplinary nature of computer science and its application to medicine provides a rich field of potential research and I look forward to continuing exploring the potential that computers offer to advance medicine.Ultrasound Image Enhancement and Machine Learning:I have developed a large set of computational tools for improving the temporal information generated from 3D imaging, specifically creating high frame rate sequences and de-noised volume images of the mitral and aortic valves from 3D echo. The work boosted Ultrasound frame rater from a native 25 volumes a second to over 500 across a single cardiac cycle. This high frame rate ultrasound is very useful for analyzing the dynamics of the heart valve leaflets during closure, something previously impossible to image. Such high frame rates provide “small motion assumption” necessary to use many computer vision techniques for segmentation and tracking of valvular structures as the heart beats. These in turn provide novel tool with which to study valve dynamics beyond the traditional Doppler echo views. This work, though the small motion assumption, enables is volume registration. This in turn provides a means of stabilizing the images to enhance the clinical view. I have also published work on the application of machine learning (deep neural networks) to the task of detecting and classifying congenital heart diseases in neonates. It is exciting to see how effective these powerful methodologies can be when coupled with our vast collections of clinical data. Image Processing and Computer vision:My Ph.D thesis work in computer vision and robotics extended energy minimizing active deformable models (a computer vision approach) into the real-time domain for the first time and applied the results directly to robot control. I applied these efficient deformable models to a number of problems from pedestrian and mobile robot tracking to visual servo control of robotic manipulators allowing grasping of previously unknown, by the robot, objects. I applied these methods to the segmentation of 3D real-time ultrasound imagery for minimally invasive intracardiac procedures. In addition to real-time implementation, I have proven theoretical bounds on the accuracy and convergence of my methods with respect to mathematical, geometric definition of smoothness. I showed the efficiency of the second derivative of curvature minimization as a regularizing term for deformable models instead of using curvature directly as was done in prior work.Surgical and Imaging Tools for Image Guided Cardiac Interventions:Image guided medical procedures are an ideal application domain for surgical robotics research and are a logical extension my work with manipulators and computer vision guided control. While receiving NIH funding from two consecutive BRP grants I have leveraged my experience to developed clinically useful systems to enabling technology to achieve beating heart repair of congenital heart defects.User Interfaces:My first work in user interfaces was quantifying the interface design process for a system used to view confocal microscopy images of rat neurobiology. These large data sets were shared across two sites: one in the US and one in Sweden. One of the problems I advanced was how to build a user interface for synchronous viewing and manipulation of enormous data sets across large geographic (latency) distances. This work received a best paper and best student paper award when presented. I have also studied the ways in which the sense of touch (haptics) can be electro-mechanically transmitted as part of an interface to surgical instruments and simulators. The transmission of haptic information from within the patient to the surgeon through a user interface provides a sense of touch previously unavailable in minimally invasive/robotic procedures. I have demonstrated the use of these haptic systems for remote palpation by integrated an existing haptic display with a manipulator and conducted a user study examining stiffness discrimination ability with tactile and kinesthetic (classic) force feedback components.",          
+          "Machine Learning"
+        ],
+        [
+          "College of William and Mary, Williamsburg, VA MS 2003 Computer Science",
+          "medical image computing"
+        ],
+        [
+          "Stony Brook University, New York PhD 12/2020 Computer Science"
+        ]
+      ],
+      "labels": [
+        [
+          "Education",
+          "Overview",
+          "Research Interests"
+        ],
+        [
+          "Education",
+          "Research Interests"
+        ],
+        [
+          "Education"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://connects.catalyst.harvard.edu/Profiles/display/Person/147373",
+        "Overview" : "Anna Young is a research associate and the Associate Director of the Healthy Buildings program at the Harvard Chan School. Her research focuses on our indoor exposures to complex mixtures of hormone-disrupting chemicals and builds evidence for healthier materials as a strategy to reduce these chemical exposures in buildings. She also earned her PhD and MS in Environmental Health from the Harvard Chan School.",
+        "Education" : "Harvard T.H. Chan School of Public Health PhD Environmental Health"
+    }
+  }
+}
