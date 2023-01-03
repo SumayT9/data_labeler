@@ -1,4 +1,4 @@
-# <Regex Web Extraction>
+# Regex Web Extraction
 
 ## Overview
 
@@ -95,7 +95,7 @@ Go to [our shared google Drive space](https://drive.google.com/drive/folders/1rx
 ```
 
 ## Demo video
-<img width="718" alt="Screen Shot 2023-01-03 at 10 39 40 AM" src="https://user-images.githubusercontent.com/63134346/210290297-99f05a08-297c-45b9-b89b-2c68489e58e6.png">(https://youtu.be/mQZqBdbyiJk)
+![]("https://user-images.githubusercontent.com/63134346/210290297-99f05a08-297c-45b9-b89b-2c68489e58e6.png")(https://youtu.be/mQZqBdbyiJk)
 
     
 ## Algorithmic Design 
