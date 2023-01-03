@@ -95,7 +95,7 @@ Go to [our shared google Drive space](https://drive.google.com/drive/folders/1rx
 ```
 
 ## Demo video
-![]("https://user-images.githubusercontent.com/63134346/210290297-99f05a08-297c-45b9-b89b-2c68489e58e6.png")(https://youtu.be/mQZqBdbyiJk)
+!["https://user-images.githubusercontent.com/63134346/210290297-99f05a08-297c-45b9-b89b-2c68489e58e6.png")](https://youtu.be/mQZqBdbyiJk)
 
     
 ## Algorithmic Design 
