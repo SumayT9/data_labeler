@@ -1,0 +1,568 @@
+{
+  "Stanford": {
+    "train": {
+      "urls": [
+        "https://profiles.stanford.edu/fei-fei-li",
+        "https://profiles.stanford.edu/joel-neal"
+      ],
+      "texts": [
+        [
+          "Dr. Fei-Fei Li is the inaugural Sequoia Professor in the Computer Science Department at Stanford University, and Co-Director of Stanford’s Human-Centered AI Institute. She served as the Director of Stanford’s AI Lab from 2013 to 2018. And during her sabbatical from Stanford from January 2017 to September 2018, she was Vice President at Google and served as Chief Scientist of AI/ML at Google Cloud. Dr. Fei-Fei Li obtained her B.A. degree in physics from Princeton in 1999 with High Honors, and her PhD degree in electrical engineering from California Institute of Technology (Caltech) in 2005. She also holds a Doctorate Degree (Honorary) from Harvey Mudd College. Dr. Li joined Stanford in 2009 as an assistant professor. Prior to that, she was on faculty at Princeton University (2007-2009) and University of Illinois Urbana-Champaign (2005-2006). Dr. Fei-Fei Li’s current research interests include cognitively inspired AI, machine learning, deep learning, computer vision and AI+healthcare especially ambient intelligent systems for healthcare delivery. In the past she has also worked on cognitive and computational neuroscience. Dr. Li has published more than 200 scientific articles in top-tier journals and conferences, including Nature, PNAS, Journal of Neuroscience, CVPR, ICCV, NIPS, ECCV, ICRA, IROS, RSS, IJCV, IEEE-PAMI, New England Journal of Medicine, Nature Digital Medicine, etc. Dr. Li is the inventor of ImageNet and the ImageNet Challenge, a critical large-scale dataset and benchmarking effort that has contributed to the latest developments in deep learning and AI. In addition to her technical contributions, she is a national leading voice for advocating diversity in STEM and AI. She is co-founder and chairperson of the national non-profit AI4ALL aimed at increasing inclusion and diversity in AI education. Dr. Li is an elected Member of the National Academy of Engineering (NAE), the National Academy of Medicine (NAM) and American Academy of Arts and Sciences (AAAS). She is also a Fellow of ACM, a member of the Council on Foreign Relations (CFR), a recipient of the 2022 IEEE PAMI Thomas Huang Memorial Prize, 2019 IEEE PAMI Longuet-Higgins Prize, 2019 National Geographic Society Further Award, 2017 Athena Award for Academic Leadership, IAPR 2016 J.K. Aggarwal Prize, the 2016 IEEE PAMI Mark Everingham Award, the 2016 nVidia Pioneer in AI Award, 2014 IBM Faculty Fellow Award, 2011 Alfred Sloan Faculty Award, 2012 Yahoo Labs FREP award, 2009 NSF CAREER award, the 2006 Microsoft Research New Faculty Fellowship, among others. Dr. Li is a keynote speaker at many academic or influential conferences, including the World Economics Forum (Davos), the Grace Hopper Conference 2017 and the TED2015 main conference. Work from Dr. Li's lab have been featured in a variety of magazines and newspapers including New York Times, Wall Street Journal, Fortune Magazine, Science, Wired Magazine, MIT Technology Review, Financial Times, and more. She was selected as a 2017 Women in Tech by the ELLE Magazine, a 2017 Awesome Women Award by Good Housekeeping, a Global Thinker of 2015 by Foreign Policy, and one of the “Great Immigrants: The Pride of America” in 2016 by the Carnegie Foundation, past winners include Albert Einstein, Yoyo Ma, Sergey Brin, et al.(Dr. Li publishes under the name L. Fei-Fei)",
+          "Professor (By courtesy), Operations, Information & Technology",
+          "Co-Director, Stanford Institute of Human-Centered AI (HAI) (2019 - Present)",
+          "Thomas S. Huang Memorial Prize, IEEE PAMI (2022)",
+          "B.A., Princeton University, Physics (1999)"
+        ],
+        [
+          "Dr. Neal holds a medical degree and a doctoral degree in Tumor Cell Biology from Northwestern University in Chicago, Illinois. Subsequently, he completed a fellowship in oncology, rotating through the Dana-Farber Cancer Institute and Massachusetts General Hospital in Boston, Massachusetts. He is currently an Associate Professor in the Division of Oncology at the Stanford Cancer Institute at Stanford University in Palo Alto, California. Dr Neal’s primary clinical interest is in thoracic oncology. In addition to maintaining an active practice, he focuses on the design and conduct of clinical trials involving targeted therapies and immunotherapy for lung cancer and mesothelioma. He has published dozens of articles in the field of thoracic oncology, including in Lancet Oncology, Nature Medicine, and the Journal of Clinical Oncology. He is a member of the International Association of the Study of Lung Cancer (IALSC), is a study chair and thoracic core committee member within the ECOG-ACRIN cooperative group, and has presented at a number of American Society of Clinical Oncology (ASCO) annual meetings.",
+          "Associate Professor - University Medical Line, Medicine - Oncology",
+          "Residency: Beth Israel Deaconess Medical Center Internal Medicine Residency (2007) MA"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Academic Appointments",
+          "Administrative Appointments",
+          "Awards",
+          "Education"
+        ],
+        ["Biography", "Academic Appointments", "Education"]
+      ]
+    },
+    "test" : {
+        "url" : "https://profiles.stanford.edu/ehsan-adeli",
+        "Biography" : ["My research lies at the intersection of machine learning, computer vision, healthcare, and computational neuroscience. I work on automatic analysis of human activities and behaviors from videos and connecting how humans perform actions to the brain by analyzing magnetic resonance images (MRIs). I explore explainable machine learning algorithms for understanding the underlying factors of neurodegenerative and neuropsychiatric diseases on the brain as well as their ramifications for everyday life."],
+        "Academic Appointments" : ["Member, Wu Tsai Human Performance Alliance","Faculty Affiliate, Institute for Human-Centered Artificial Intelligence (HAI)", "Clinical Assistant Professor, Psychiatry and Behavioral Sciences", "Member, Wu Tsai Neurosciences Institute"],
+        "Administrative Appointments" : ["Associate Editor, IEEE Journal of Biomedical and Health Informatics (2020 - Present)", "Associate Editor, Journal of Ambient Intelligence and Smart Environments (2019 - Present)"],
+        "Awards" : ["REC Fellow, Stanford University Alzheimer's Disease Research Center (ADRC) (2020-2022)", "Senior Member, IEEE (2021-Now)", "Innovator Award 2021, Stanford University School of Medicine Department of Psychiatry \\& Behavioral Sciences (2020-2021)", "Young Investigator Award, Medical Image Computing and Computer Assisted Interventions (MICCAI) (2018)", "NIH F32 Fellowship Award, NIAAA (2018-2019)"],
+        "Education" : ["Graduate Research Scholar, Carnegie Mellon University, Computer Vision (2012)", "Postdoctoral Research Associate, University of North Carolina at Chapel Hill, Machine Learning and Medical Imaging (2017)"]
+
+
+    }
+  },
+  "Berkeley": {
+    "train": {
+      "urls": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html",
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html",
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/anantharam.html"
+      ],
+      "texts": [
+        [
+          "Professor Pieter Abbeel is Director of the Berkeley Robot Learning Lab and Co-Director of the Berkeley Artificial Intelligence (BAIR) Lab. Abbeel’s research strives to build ever more intelligent systems, which has his lab push the frontiers of deep reinforcement learning, deep imitation learning, deep unsupervised learning, transfer learning, meta-learning, and learning to learn, as well as study the influence of AI on society. His lab also investigates how AI could advance other science and engineering disciplines. Abbeel's Intro to AI class has been taken by over 100K students through edX, and his Deep RL and Deep Unsupervised Learning materials are standard references for AI researchers. Abbeel has founded three companies: Gradescope (AI to help teachers with grading homework and exams), Covariant (AI for robotic automation of warehouses and factories), and Berkeley Open Arms (low-cost, highly capable 7-dof robot arms), advises many AI and robotics start-ups, and is a frequently sought after speaker worldwide for C-suite sessions on AI future and strategy. Abbeel has received many awards and honors, including the PECASE, NSF-CAREER, ONR-YIP, Darpa-YFA, TR35. His work is frequently featured in the press, including the New York Times, Wall Street Journal, BBC, Rolling Stone, Wired, and Tech Review.",          
+          "2008, Ph.D., Computer Science, Stanford University",          
+          "IEEE Kiyo Tomiyasu Award, 2022",
+          "Artificial Intelligence (AI)"
+
+        ],
+        [
+          "Andrew Carnegie Fellowship, 2022",
+          "Artificial Intelligence (AI)"
+        ],
+        [
+          "He received his B.Tech in Electrical Engineering from the Indian Institute of Technology, 1980, a M.S. in EE from UC Berkeley, 1982, a M.A. in Mathematics, UC Berkeley, 1983, a C.Phil in Mathematics, UC Berkeley, 1984 and a Ph.D. in EE, UC Berkeley, 1986. Prior to joining the faculty of EECS in 1994, he was a member of the faculty at Cornell University.",
+          "1982, M.S., Electrical Engineering, University of California, Berkeley",
+          "IEEE ComSoc Stephen O. Rice Prize, 2000",
+          "Information, Data, Network, and Communication Sciences (IDNCS)"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Education",
+          "Awards",
+          "Research Areas"
+        ],
+        ["Awards", "Research Areas"],
+        [
+          "Biography",
+          "Education",
+          "Awards",
+          "Research Areas"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www2.eecs.berkeley.edu/Faculty/Homepages/gopala.html",
+        "Biography" : ["Gopala Anumanchipalli received a B.Tech and MS in Computer Science from IIIT Hyderabad in 2008, and a Ph.D in Language and Information Technologies from Carnegie Mellon University, and a Ph.D in Electrical and Computer Engineering from IST, Lisbon. After Postdoctoral training and being a Full Researcher at Dept. of Neurosurgery at UCSF, he joined the faculty of the Department of Electrical Engineering and Computer Sciences at UC Berkeley in Spring 2021 and continues to hold an adjunct position at Dept. of Neurosurgery at UC San Francisco. He works at the intersection of Speech Processing, Neuroscience, and Artificial Intelligence with an emphasis on human-centered speech and Assistive technologies, including new paradigms for bio-inspired spoken language technologies, automated methods for early diagnosis, characterizing and rehabilitating disordered speech. With colleagues at UCSF, he also develops methods to advance our understanding of the neural mechanisms underlying speech/ language function in healthy people and Brain-Computer Interfaces to externally decode speech and language directly from the brain to augment lost function in paralyzed patients."],
+        "Awards" : ["Rose Hills Innovator Program, 2021"],
+        "Education" : ["2013, Ph.D., Electrical and Computer Engineering, Instituto Superior Técnico, Lisbon, Portugal", "2013, Ph.D., Language and Information Technologies, Carnegie Mellon University", "2008, B.Tech and M.S., Computer Science, International Institute of Information Technology, Hyderabad, India"],
+        "Research Areas": ["Artificial Intelligence (AI)", "Biosystems & Computational Biology (BIO)", "Signal Processing (SP)", "Human-Computer Interaction (HCI)"]
+
+
+    }
+  },
+  "CMU": {
+    "train": {
+      "urls": [
+        "https://www.ece.cmu.edu/directory/bios/amvrosiadis-george.html",
+        "https://www.ece.cmu.edu/directory/bios/brumley-david.html",
+        "https://www.ece.cmu.edu/directory/bios/carley-rick.html"
+      ],
+      "texts": [
+        [
+          "George is an Assistant Research Professor of Electrical and Computer Engineering at Carnegie Mellon University, with a courtesy appointment in the Computer Science Department, and a member of the Parallel Data Lab. His research focuses on distributed systems, operating systems, and data analysis. He co-teaches two popular graduate-level courses on advanced cloud computing and storage systems. He received his Ph.D. from the University of Toronto.",
+          "Ph.D., 2016 Computer Science University of Toronto, Canada",          
+          "High performance computing"
+        ],
+        [
+          "David Brumley is an Associate Professor at Carnegie Mellon University with a primary appointment in the Electrical and Computer Engineering Department and a courtesy appointment in the Computer Science Department. He is also the previous Director of CyLab, the CMU Security and Privacy Institute. His research focuses on software security.",
+          "Ph.D.Computer Science Carnegie Mellon University",
+          "Cyber-autonomy"
+        ],
+        [
+          "L. Richard Carley joined the faculty of the Department of Electrical and Computer Engineering at Carnegie Mellon University in 1984 and has been a major contributor to the research and educational missions of that department. Prior to joining Carnegie Mellon, Carley received his S.B. (1976), S.M. (1978) and Ph.D. (1984) in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology. He has been a key member of the Data Storage Systems Center (DSSC), where he served as associate director for electronic subsystems. He has also been a long standing contributor in the area of analog circuit design most recently participating in the Center for Circuits and Systems Solutions (C2S2).",
+          "Ph.D., 1984 Massachusetts Institute of Technology",
+          "CAD and design of analog signal processing circuits and MEMS systems",
+          "Research interests include:"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Education",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Education",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Education",
+          "Research Areas",
+          "Research Interests"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.ece.cmu.edu/directory/bios/fedder-gary.html",
+        "Biography" : ["Dr. Fedder arrived at the university in 1994 with a joint faculty appointment in the Department of Electrical and Computer Engineering and The Robotics Institute. He currently is the Vice Provost of Research, Howard M. Wilkoff Professor in ECE, professor in Robotics and has courtesy faculty appointments in Mechanical Engineering and Biomedical Engineering. He previously served in administrative roles as Director of the Institute for Complex Engineered Systems (2006-2013, now known as the Engineering Research Accelerator), as Associate Dean for Research in the College of Engineering (2013-2015) and as Interim Chief Executive Officer for the Advanced Robotics for Manufacturing Institute (2/2017-1/2018).", "Dr. Fedder earned his B.S. and M.S. degrees in EECS(6.1) from MIT in 1982 and 1984, respectively. From 1984 to 1989, he worked at the Hewlett-Packard Company on circuit design and printed-circuit modeling. In 1994, he obtained the Ph.D. degree in EECS from the University of California at Berkeley, where his research resulted in the first demonstration of multimode control of an underdamped surface-micromachined inertial device. His research interests include design and modeling of microsensors and microactuators, fabrication of integrated MEMS with electronic circuits using conventional CMOS processing, and implantable microsystems. In 2007, he was elevated to IEEE Fellow for contributions to integrated micro-electro-mechanical-system processes and design methodologies. His awards include the 1993 AIME Electronic Materials Society Ross Tucker Award, the 1996 Carnegie Institute of Technology George Tallman Ladd Research Award, and a 1996 NSF CAREER Award.", "Currently, he serves on the executive editorial board for the IoP Journal of Micromechanics and Microengineering, on the editorial board of IET Micro & Nano Letters, and as co-editor of the Wiley-VCH Advanced Micro- and Nanosystems book series. He served on the editorial board of the IEEE Journal of Microelectromechanical Systems from 2001 to 2013 and on the editorial board of SPIE Journal of Micro/Nanolithography, MEMS, and MOEMS from 2010 to 2013. He served as the 2015 Transducers Conference regional program chair for the Americas, as general chair of the 2010 IEEE Sensors Conference, and as general co-chair of the 2005 IEEE MEMS Conference. Professor Fedder has contributed to over 290 research publications and holds16 patents in the MEMS area.", "From 2011 to 2012, Dr. Fedder served as a technical co-lead in the U.S. Advanced Manufacturing Partnership where he worked with industry, academia and government to generate recommendations that motivated the launch of the National Network for Manufacturing Innovation (NNMI). He co-led the proposal that landed the $70M pilot institute for the NNMI, America Makes , and served on its Executive Committee from 2012 to 2016. In 2016`, Dr.Fedder co-led with Professor Howie Choset a successful proposal to the Department of Defense to launch the Advanced Robotics for Manufacturing (ARM) Institute, which became an institute in the national network of Manufacturing USA Institutes on January 9, 2017. As founding president of the ARM Institute and Interim CEO through its first year, Dr. Fedder built the organization and grew its consortium membership to more than 100 industry, academic and non-profit organizations."],
+        "Research Interests" : ["Professor Fedder's research interests are in the multidisciplinary area of microelectromechanical systems (MEMS), and focus primarily on design, fabrication, and control aspects of sensor- and actuator-based systems. In MEMS, micron- to millimeter-size systems with sophisticated abilities to interact with their environment are manufactured through the use of VLSI-based photolithographic batch fabrication methods. Current research activities include micro-sensor and microactuator design; microrobotic control and manipulation; embedded microinstruments; nanometer-scale, probe-based data storage; and structured design methodologies for MEMS. Professor Fedder's group is designing a variety of MEMS, including microaccelerometers, gyroscopes, resonant sensors, and x-y-z microservos, using a unique process that combines foundry CMOS with thin film microstructures. Research in MEMS computer-aided design aims to develop structured design tools and a top-down synthesis flow. Continuing research will study control of large systems of microsensors and actuators, and broaden the manufacturing capabilities of integrated MEMS."],
+        "Research Areas" : ["Microelectromechanical systems (MEMS)", "CMOS MEMS", "Microfabrication", "Microsensors", "Microsystems", "Nanomanufacturing", "RF MEMS", "Inertial sesors", "Accelerometers", "Gyroscopes", "High-g accelerometers", "Bias drift compensation", "MEMS CAD/design/simulation", "Micro-robotics", "Integration of MEMS with electronic circuits", "Bio/chemical sensors", "Parylene neural probes", "Vagus nerve stimulation for cancer therapy;", "Low-power RF detection", "Wearable stretchable sensors", "Polydimethylsiloxane (PDMS)", "Atomic layer deposition (ALD) of nanolaminates"],
+        "Education": ["Ph.D., 1994Electrical Engineering and Computer Science University of California, Berkeley", "M.S., 1984Electrical Engineering and Computer Science Massachusetts Institute of Technology", "B.S., 1982 Electrical Engineering and Computer Science Massachusetts Institute of Technology"]
+
+
+    }
+  },
+  "UCLA": {
+    "train": {
+      "urls": [
+        "https://samueli.ucla.edu/people/jason-jingsheng-cong/",
+        "https://samueli.ucla.edu/people/junghoo-john-cho/",
+        "https://samueli.ucla.edu/people/eliezer-gafni/",
+        "https://samueli.ucla.edu/people/songwu-lu/"
+      ],
+      "texts": [
+        [
+          "Volgenau Chair for Engineering ExcellenceDirector, Center for Customizable Domain-Specific ComputingDirector, VLSI Architecture, Synthesis, and Technology (VAST) Laboratory (former VLSI CAD Laboratory)JASON CONG received his B.S. degree in computer science from Peking University in 1985, his M.S. and Ph. D. degrees in computer science from the University of Illinois at Urbana-Champaign in 1987 and 1990, respectively. Currently, he is the Volgenau Chair for Engineering Excellence in the UCLA Computer Science Department (with joint appointment in the Department of Electrical and Computer Engineering), the Director of Center for Domain-Specific Computing (funded by NSF Expeditions in Computing Award), and the director of VLSI Architecture, Synthesis, and Technology (VAST) Laboratory. He served as the chair of the UCLA Computer Science Department from 2005 to 2008. He was elected to an IEEE Fellow in 2000, an ACM Fellow in 2008, a member of the National Academy of Engineering in 2017, and a Fellow of the National Academy of Inventors in 2020.",
+          "Dr. Cong’s research interests include electronic design automation, customized computing for machine learning and big-data applications, quantum computing, and highly scalable algorithms. He has published over 500 research papers in these areas, including 16 Best Paper Awards (IEEE T-CAD’95, IPSD’05, HPCA'08, SASP'09, FCCM'11, FPGA’13, ISSS+CODES’13, ACM TODAES 2005, 2012, and 2013, MEMSYS'17,  ISLPED'18, FPGA'19, T-CAD'19, ICCAD'19, and FPGA'21). He also received three 10-Year Retrospective Most Influential Paper Award at ICCAD'14, ASPDAC'15, and ASPDAC'17, respectively.  His work on FPGA technology mapping (FlowMap) received the 2011 ACM/IEEE A. Richard Newton Technical Impact Award in Electric Design Automation “for pioneering work on technology mapping for FPGA that has made significant impact to the FPGA research community and industry”, and was the first inducted to the FPGA and Reconfigurable Computing Hall of Fame by ACM TCFPGA.  He was elected to an IEEE Fellow in 2000 for \"for seminal contributions in computer-aided design of integrated circuits, especially in physical design automation, interconnect optimization, and synthesis of FPGAs\", and ACM Fellow in 2008 \"for contributions to electronic design automation\".   He received the 2010 IEEE Circuits and System (CAS) Society Technical Achievement Award \"For seminal contributions to electronic design automation, especially in FPGA synthesis, VLSI interconnect optimization, and physical design automation\" and the 2016 IEEE Computer Society Technical Achievement Award “For setting the algorithmic foundations for high-level synthesis of field programmable gate arrays”.   Dr. Cong was elected as a member of the National Academy of Engineering in 2017 “for pioneering contributions to application-specific programmable logic via innovations in field programmable gate array (FPGA) synthesis”, and a Fellow of the National Academy of Inventors in 2020.  He received the University Research Award from the Semiconductor Industry Association (SIA) and the Semiconductor Research Corporation (SRC) for \"research efforts to advance US semiconductor technology\" in 2019.",          
+          "Ph.D. in Computer Science:  University of Illinois at Urbana-Champaign, 1990",
+          "ICCAD Keynote Lecturer, October 2022."
+        ],
+        [
+          "Junghoo Cho is a professor in the Department of Computer Science at University of California, Los Angeles. He received a Ph.D. degree in Computer Science from Stanford University and a B.S. degree in physics from Seoul National University. His main research interests are in the study of the evolution, management, retrieval and mining of information on the World-Wide Web. He publishes research papers in major international journals and conference proceedings. He serves on program committees of top international conferences, including SIGMOD, VLDB and WWW. He is a recipient of the 10-Year Best-Paper Award at VLDB 2010, NSF CAREER Award, IBM Faculty Award, Okawa Research Award and Northrop Grunmann Excellence in Teaching Award.",
+          "Internet search engines",
+          "PhD (2002) Stanford University (Computer Science), BS (Physics) Seoul National University",
+          "Best Paper Runner Up, SIGIR 2013"
+        ],
+        [
+          "Dr. Gafni was born in Tel-Aviv, Israel. He received his Bs.C from the Technion, Israel in 1972, and Ms and Ph.D. in Electrical Engineering in 1979 and 1982, from the University of Illinois at Urbana Champaign, and M.I.T, respectively. In 1982 he joined the UCLA computer science faculty. Dr. Gafni was the recipient of a 1983 IBM Faculty Development Award, and a 1984 NSF Presidential Young Investigator Award. His research interests include distributed algorithms, mathematical programming with application to distributed routing and control of data networks, and computer science theory.",
+          "Foundations of Distributed-Computing.",
+          "Bs.C, the Technion, Israel (1972)",
+          "Dijkstra Prize - 2017"
+
+        ],
+        [
+          "I am a Professor in Computer Science Department at University of California, Los Angeles. I am leading Wireless Networking Group (WiNG) at UCLA. My research interests include wireless networking, mobile systems, cloud computing and wireless and Internet security. Prior to UCLA, I graduated with a Ph.D. from University of Illinois at Urbana-Champaign in 1999.",
+          "PhD (2003) University of Illinois, Urbana-Champaign",
+          "Ongoing research projects: here",
+          "Fellow of the IEEE"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Research Interests",
+          "Education",
+          "Awards"
+        ],
+        [
+          "Biography",
+          "Research Interests",
+          "Education",
+          "Awards"
+        ],
+        [
+          "Biography",
+          "Research Interests",
+          "Education",
+          "Awards"
+        ],
+        [
+          "Biography",
+          "Education",
+          "Research Interests",
+          "Awards"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://samueli.ucla.edu/people/richard-korf/",
+        "Biography" : ["Richard Korf is a Professor of computer science at the University of California, Los Angeles. He received his B.S. from M.I.T. in 1977, and his M.S. and Ph.D. from Carnegie-Mellon University in 1980 and 1983, respectively, all in computer science. From 1983 to 1985, he served as Herbert M. Singer Assistant Professor of Computer Science at Columbia University. His research is in the areas of problem-solving, heuristic search, and planning in artificial intelligence. He is the author of \"Learning to Solve Problems by Searching for Macro-Operators\" (Pitman, 1985). He serves on the editorial boards of Artificial Intelligence, and the Journal of Applied Intelligence. Dr. Korf is the recipient of a 1985 IBM Faculty Development Award, a 1986 NSF Presidential Young Investigator Award, the first UCLA Computer Science Department Distinguished Teaching Award in 1989, the first UCLA School of Engineering Student's Choice Award for Excellence in Teaching in 1996, and the Lockheed Martin Excellence in Teaching Award in 2005. He is a Fellow of the American Association for Artificial Intelligence."],
+        "Education" : ["PhD (1983) Carnegie-Mellon University"],
+        "Research Interests" : ["Problem solving, planning, and heuristic search in artificial intelligence", "Parallel Processing", "Search Algorithms"],
+        "Awards": ["AAAI Fellow"]
+    }
+  },
+  "UCI": {
+    "train": {
+      "urls": [
+        "https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sabdujyo",
+        "https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pfbaldi",
+        "https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mjcarey"
+      ],
+      "texts": [
+        [
+          "Ph.D., Computer Science, University of Illinois, Urbana- Champaign",
+          "Artificial Intelligence and Machine Learning",   
+          "Networks and Distributed Systems",
+          "Abdu Jyothi's research interests are in the areas of computer networking and systems, with a focus on building application-aware self-optimizing systems through automated resource management."
+        ],
+        [
+          "Ph.D. 1986, California Institute of Technology",
+          "Artificial Intelligence and Machine Learning",
+          "Environmental Informatics",
+          "Dr. Baldi's research focuses in several areas of AI, data mining, machine learning, bioinformatics and communication networks. Projects in his group include understanding and predicting protein structures, analyzing and modeling gene expression data and regulatory networks, developing a computer GO player, analyzing and designing communication networks (Internet, Ultra Wide Band Radio), and quantifying information."
+        ],
+        [
+          "Ph.D. 1983, UC Berkeley",
+          "Databases and Data Mining",
+          "Prof. Carey's interests include database systems, information integration, service-oriented computing, middleware, distributed systems, and computer system performance evaluation."
+
+        ]
+      ],
+      "labels": [
+        [
+          "Education",
+          "Research Areas",
+          "Research Areas",
+          "Research Interests"
+        ],
+        [
+          "Education",
+          "Research Areas",
+          "Research Areas",
+          "Research Interests"
+        ],
+        [
+          "Education",
+          "Research Areas",
+          "Research Interests"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dutt",
+        "Education" : ["Ph.D. 1989, University of Illinois, Urbana-Champaign"],
+        "Research Areas" : ["Embedded Systems", "Computer Architecture and Design"],
+        "Research Interests" : ["Dutt's research is in the area of embedded systems and computer-aided design, with a specific focus on the exploration, evaluation and design of domain-specific embedded systems spanning both software and hardware. Other projects within his group include low-power/low-energy compilation and synthesis, validation and verification of embedded systems, software/hardware interfaces for distributed embedded systems, memory architecture exploration for embedded systems, and brain-inspired architectures and computing."]
+    }
+  },
+  "Meta": {
+    "train": {
+      "urls": [
+        "https://research.facebook.com/people/ahlgren-john/",
+        "https://research.facebook.com/people/akande-olanrewaju-michael/",
+        "https://research.facebook.com/people/altenburger-kristen-m/"
+      ],
+      "texts": [
+        [
+          "I am a Software Engineer at Meta focusing on Simulation, Machine Learning, Privacy, and Integrity.",
+          "Mathematical modeling, machine learning"
+        ],
+        [
+          "I am a Research Scientist at Meta on the Statistics & Privacy team within Monetization Applied Research & Strategy (MARS). Before Meta, I was an Assistant Professor in the Social Science Research Institute, and the Department of Statistical Science at Duke University. I completed my PhD in Statistical Science at Duke, under the supervision of Dr. Jerry Reiter.",
+          "Bayesian modeling, causal inference, hierarchical modeling, machine learning, missing data",
+          "My research has been focused primarily on developing statistical methodology for handling missing and faulty data. More broadly, my research areas include Bayesian modeling, models for editing erroneous data, multiple imputation, missing data, mixture models, and hierarchical modeling. I am particularly interested in developing scalable methodology for handling missing data, measurement error, and conducting causal inference. I am excited about exploiting these ideas to improve business products at Meta, particularly in the Ads space."
+        ],
+        [
+          "I am a Research Scientist on the Computational Social Science and Core Data Science teams. My research focuses on developing statistical methods for characterizing social structures in networks, with applications to data privacy, and focuses on promoting equitable digital systems. Before joining Meta, I pursued my PhD in Computational Social Science in the Management Science & Engineering Department at Stanford University, received my AM in Statistics from Harvard University, and my BS in Mathematics from Ohio University.",
+          "Computational social science, social network analysis, causal inference, machine learning"
+
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Research Interests"
+        ],
+        [
+          "Biography",
+          "Research Interests",
+          "Biography"
+        ],
+        [
+          "Biography",
+          "Research Interests"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://research.facebook.com/people/andrzejewski-seth/",
+        "Biography" : ["I have been an experience researcher at Facebook since 2015 in the Local Org, working to better connect businesses to their customers and provide excellent service. I am passionate to help my team understand the needs of people in the real world. I enjoy meeting people and interviewing them about their processes, needs, and seeking to understand what tools Facebook can make to improve their lives.", "I previously worked as an experience researcher at OpenTable. I live in San Francisco where I enjoy riding trolleys with my son and giving helpful insider tips to tourists."],
+        "Research Interests" : ["Small businesses, two-sided marketplaces, hospitality and meaningful customer interactions"]
+    }
+  },
+  "NVIDIA": {
+    "train": {
+      "urls": [
+        "https://research.nvidia.com/person/dennis-abts",
+        "https://research.nvidia.com/person/timo-aila",
+        "https://research.nvidia.com/person/tomas-akenine-moller"
+      ],
+      "texts": [
+        [
+          "Dennis has three decades of experience building large-scale parallel computers that are uniquely capable of tackling the most demanding AI and HPC workloads. Previously, as the Chief Architect at Groq he worked on large-scale parallel architectures for machine learning, and at Google he worked on warehouse-scale topologies for energy-proportional networking, and Cray, where he was a Sr. Principal Architect on several Top500 massively parallel supercomputers ranging from scalable vector machines Cray SV1, X1, and Black Widow (XT5h) as well as massively parallel distributed systems like the Cray RedStorm (XT3), XT4, XT5, XT6, and XE6 systems.",
+          "Dennis holds a PhD in Computer Architecture from the University of Minnesota with dozens of patents in areas of hardware-coherent memory system design, interconnection networks, synchronization and communication protocols and chip design. His research focuses on low-latency interconnects and efficient synchronization for reliable communication at-scale.",
+          "Artificial Intelligence and Machine Learning"
+        ],
+        [
+          "Timo Aila joined NVIDIA Research in 2007 from Helsinki University of Technology, where he led the computer graphics research group. His expertise ranges from real-time rendering in computer games to to high-quality image synthesis, with contributions to the PantaRay rendering system used in Avatar, Tintin, and Hobbit. He also gained expertise in mobile graphics as the chief scientist of Hybrid Graphics, which was acquired by NVIDIA in 2006. Timo is currently working on machine learning, with a special focus on generative models such as StyleGAN. Previously he had a central role in NVIDIA's research efforts on ray tracing, including the design of the RTX hardware units.",
+          "Artificial Intelligence and Machine Learning"
+        ],
+        [
+          "Tomas Akenine-Möller joined NVIDIA Research in 2016, previously working at Intel and as a professor in computer graphics at Lund University, where he founded and built the computer graphics group. His expertise is in real-time rendering, ray tracing, and graphics hardware. In 2003, he co-authored the first Swedish SIGGRAPH papers ever, one on mobile graphics and another on soft shadows.",
+          "He is a co-author of the book Real-Time Rendering, which is widely used in the real-time graphics industry and in academia, and of a free interactive linear algebra book. He also co-edited, with Eric Haines, the book Ray Tracing Gems, which is free as e-book in various formats.",
+          "Tomas is currently is doing research on real-time rendering (surprise!). Publications prior to joining NVIDIA can be found here and here.",
+          "Computer Graphics"
+
+        ]
+      ],
+      "labels": [
+        [
+          "Biography",
+          "Biography",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Research Areas"
+        ],
+        [
+          "Biography",
+          "Biography",
+          "Biography",
+          "Research Areas"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://research.nvidia.com/person/matthias-blumrich",
+        "Biography" : ["After completing my PhD in 1996, I continued working as a Research Associate at Princeton University. I joined IBM Research in 1998 to work on user-level messaging for cluster systems. Soon thereafter I joined the Blue Gene hardware group, where I contributed to the architecture of the Blue Gene/L system and co-designed its collective network. I continued to work on architecture, design, verification, and test of Blue Gene systems, including BG/P (snoop filter) and BG/Q (PCIe and I/O interface). Following Blue Gene, I worked on system software and hardware verification for another government-sponsored supercomputer cloaked in secrecy.I am thrilled to be back in the area of network architecture and design as a part of NVIDIA!"],
+        "Research Areas" : ["Computer Architecture", "High Performance Computing"]
+    }
+  },
+  "Purdue": {
+    "train": {
+      "urls": [
+        "https://www.cs.purdue.edu/people/faculty/gba.html",
+        "https://www.cs.purdue.edu/people/faculty/matallah.html",
+        "https://www.cs.purdue.edu/people/faculty/jblocki.html"
+      ],
+      "texts": [
+        [
+          "BS, Virginia Polytechnic Institute and State University, Electrical Engineering (1978)",
+          "MS, Purdue University, Electrical Engineering (1980)",
+          "Dr. Adams joined the Research Institute for Advanced Computer Science at NASA Ames Research Center (1983-1987), where his work focused on high-performance computing for scientific applications. He was a Visiting Lecturer at Stanford University in 1986. Returning to Purdue University, he has held positions in the School of Electrical and Computer Engineering and Discovery Park.",
+          "He was named an Outstanding Instructor by General Motors (1994) and the National Technological University (1996 and 2002) for his Purdue University distance education courses. He received the Eaton Award in Design Excellence as the Faculty Mentor from the School of Electrical and Computer Engineering, Purdue University (2007). He has received Favorite Faculty nominations by students living in Purdue University residences (2015, 2017, and 2018). He received the College of Science Outstanding Teacher Award for 2016-2017 and 2017-18, given by the Purdue Student Science Council. He received the Purdue University Department of Computer Science ACM Faculty Award for 2018 and is faculty advisor to the student chapter of ACM. He was inducted as a Fellow of the Purdue University Teaching Academy in September 2019."
+        ],
+        [
+          "PhD, The Johns Hopkins University, Electrical Engineering and Computer Science (1982)",
+          "Professor Atallah's research interests are in information security and algorithms. A Fellow of both the ACM and IEEE, his work on key management received the 2015 CCS Test of Time Award, and his work on multi-party computation received the 2021 ACSAC Test of Time Award. He was the 2017 recipient of the Arden L. Bement Jr. Award, the most prestigious award Purdue bestows in pure and applied science and engineering. He was the 2016 recipient of the Purdue Sigma Xi Faculty Research Award, and the 2013 recipient of the Purdue Outstanding Commercialization Award. He was a speaker nine times in the Distinguished Lecture Series of top Computer Science Departments, and was keynote and invited speaker at many national and international meetings, and has served on the editorial boards of top journals and on the program committees of top conferences and workshops. He was selected in 1999 as one of the best teachers in the history of Purdue University and included in Purdue's Book of Great Teachers, a permanent wall display of Purdue's best teachers past and present. In 2001 he co-founded Arxan Technologies Inc, to commercialize a software protection technology developed jointly with his doctoral student Hoi Chang (in 2019 Arxan reported that applications secured by it were running on over a billion devices, and in 2020 it reported 5+ billion deployed instances on protected applications \"across many industries including financial services, mobile payments, healthcare, automotive, gaming, and entertainment\"). He was CTO of Arxan Technologies and Chief Scientist for its defense subsidiary, Arxan Defense Systems. Arxan Defense Systems was acquired in 2010 by Microsemi Corporation, and Arxan Technologies was acquired in 2013 by private equity firm TA Associates."
+        ],
+        [
+          "BS, Carnegie Mellon University, Computer Science (2009)",
+          "At a high level Professor Blocki describes himself as \"a theoretical computer scientist who is interested in applying fundamental ideas from computer science to address practical problems in usable privacy and security.\" He is especially interested in developing usable authentication protocols for humans. Are there easy ways for humans to create and remember multiple strong passwords? Can we design secure cryptographic protocols that are so simple that can be run by a human? Jeremiah has also developed algorithms for conducting privacy preserving data analysis in several different application settings including social networks and password data. Prior to joining Purdue Jeremiah completed his PhD on Usable Human Authentication at Carnegie Mellon University under the supervision of his advisors Manuel Blum and Anupam Datta. He also spent a year at Microsoft Research New England as a postdoc."
+
+        ]
+      ],
+      "labels": [
+        [
+          "Education",
+          "Education",
+          "Biography",
+          "Biography"
+        ],
+        [
+          "Education",
+          "Biography"
+        ],
+        [
+          "Education",
+          "Biography"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.cs.purdue.edu/people/faculty/bertino.html",
+        "Biography" : ["Professor Elisa Bertino joined Purdue in January 2004 as professor in Computer Science and research director at CERIAS. Her research interests cover many areas in the fields of information security and database systems. Her research combines both theoretical and practical aspects, addressing applications on a number of domains, such as medicine and humanities. Current research includes: access control systems, secure publishing techniques and secure broadcast for XML data; advanced RBAC models and foundations of access control models; trust negotiation languages and privacy; data mining and security; multi-strategy filtering systems for Web pages and sites; security for grid computing systems; integration of virtual reality techniques and databases; and geographical information systems and spatial databases.", "Professor Bertino serves or has served on the editorial boards of several journals - many of which are related to security, such as the ACM Transactions on Information and System Security, the IEEE Security & Privacy Magazine, and IEEE Transactions on Dependable and Secure Computing. She is currently serving as program chair of the 36th International Conference on Very Large Data Bases (VLDB 2010). Professor Bertino is a Fellow of the Institute of Electrical and Electronics Engineers and a Fellow of ACM. She received the IEEE Computer Society Technical Achievement award in 2002 for outstanding contributions to database systems and database security and advanced data management systems, and received the 2005 Tsutomu Kanai Award by the IEEE Computer Society for pioneering and innovative research contributions to secure distributed systems.", "She is recently served in the IEEE Computer Society Board of Governors and as Chair of ACM SIGSAC."],
+        "Education" : ["Dr., University of Pisa, Computer Science (1980)"]
+    }
+  },
+  "UT": {
+    "train": {
+      "urls": [
+        "https://www.cs.utexas.edu/people/faculty-researchers/sarah-abraham",
+        "https://www.cs.utexas.edu/people/faculty-researchers/aditya-akella",
+        "https://www.scs.gatech.edu/people/joy-arulraj"
+      ],
+      "texts": [
+        [
+          "Graphics and Visualization",
+          "Dr. Abraham's research interests are primarily related to video game development and artistic tools. She is interested in non-photorealistic rendering, as well as creating artist tools that make physical simulation intuitive and accessible. She is currently exploring video game mechanics and narrative as a vehicle for fostering cooperation and empathy in players.",
+          "Sarah Abraham is an Assistant Professor of Instruction in the Department of Computer Science. She is a member of the Real-time Graphics and Parallel Systems group, with interests in non-photorealistic rendering, simulation-based tools for artists, and video game mechanics that foster cooperation and empathy. Dr. Abraham received her M.S. and PhD from the University of Texas at Austin, and her B.A. From Wellesley College."
+        ],
+        [
+          "Computer Architecture",
+          "Operating Systems, Distributed Systems, and Networking",
+          "Programmable networks",
+          "2020 - Blavatnik Awards for Young Scientists, Finalist",
+          "2019 - SACM Student COW (Choice of Wisconsin) Award",
+          "Aditya Akella is a Regents Chair professor of Computer Science at UT Austin. He obtained his Ph.D. from CMU and B. Tech. from IIT Madras. Prior to joining UT Austin, he spent fifteen years as a professor at UW-Madison. Prof. Akella works on improving the performance, reliability, and correctness of Cloud and Internet infrastructure. His research straddles the boundary between computer networking and adjacent areas such as operating systems, databases, and formal methods. Prof. Akella has won numerous awards for his research, teaching, and service contributions. Akella's research has impacted production systems run by some of the world’s largest tech companies."
+
+
+        ],
+        [
+          "Joshua Baer is the founder of Capital Factory, a coworking community and accelerator designed to help startups find their first investors, customers and employees. Josh founded his first startup in 1996 in his college dormitory at Carnegie Mellon University, and has since achieved enormous success in the entrepreneurship world, winning numerous accolades and serving on the Boards of Directors for several companies. He currently lives in Austin with his wife Amy and three children. At UT Austin, Josh co-teaches the Longhorn Startup Seminar and Lab. He also acts as the Entrepreneur in Residence for the Department of Computer Science.",
+          "Bootstrapping Startups",
+          "Rapid Technology Development",
+          "Cloud Computing",
+          "February 2020 - Austin Chamber of Commerce 2019 Volunteer of the Year - Economic Development",
+          "October 2014 - Present - Eisenhower Fellowship"
+
+        ]
+      ],
+      "labels": [
+        [
+          "Research Areas",
+          "Research Interests",
+          "Biography"
+        ],
+        [
+          "Research Areas",
+          "Research Areas",
+          "Research Interests",
+          "Awards",
+          "Awards",
+          "Biography"
+        ],
+        [
+          "Biography",
+          "Research Interests",
+          "Research Interests",
+          "Research Interests",
+          "Awards",
+          "Awards"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.cs.utexas.edu/people/faculty-researchers/shuchi-chawla",
+        "Biography" : ["Shuchi Chawla holds an Endowed Professorship in Computer Science at UT-Austin and is an Amazon Scholar. Shuchi is a theoretical computer scientist specializing in the areas of algorithm design, and economics and computation. Shuchi received a Ph.D. from Carnegie Mellon University and a B.Tech. from IIT, Delhi. Prior to joining UT-Austin, she spent 15 years as a professor of CS at the University of Wisconsin-Madison. She has also previously held visiting positions at the University of Washington and Microsoft Research. Shuchi recently served as the PC Chair of SODA’20 and EC’21, and currently serves on the editorial boards of the ACM Transactions on Algorithms and the ACM Transactions on Economics and Computation."],
+        "Research Areas" : ["Theoretical Computer Science"],
+        "Research Interests": ["Approximation and online algorithms; algorithmic game theory and mechanism design; data-driven algorithm design; combinatorial and stochastic optimization; algorithmic fairness; algorithmic issues in networks and systems."],
+        "Awards": ["2020 - Chancellor's Teaching Innovation Award (UW-Madison)", "2020 - Provost's Mid-Career Award (UW-Madison)", "2018 - Carolyn Rosner Award for Excellence in Teaching (UW-Madison)", "2012 - Kavli Fellow", "2009 - Sloan Research Fellowship"]
+    }
+  },
+  "UMD": {
+    "train": {
+      "urls": ["https://www.cs.umd.edu/people/bahar","https://www.cs.umd.edu/people/bhatele", "https://www.cs.umd.edu/people/abadi"],
+      "texts": [
+        [
+          "Bahar Asgari is an assistant professor in the Department of Computer Science, and the director of the Computer Architecture and Systems Lab (CASL) at the University of Maryland, College Park. Before joining UMD, she spent a year at Google, contributing to improving the performance of systems developed in Google and setting roadmaps across various tradeoffs to shape the next generation of systems, with a focus on optimizing memory utilization and improving reliability. Her research interests include but are not limited to domain-specific architecture design, near memory processing, and reconfigurable computing. Her proposed low-cost hardware accelerators that deal with essential challenges of sparse problems contribute to a widespread application domain from machine learning to scientific computing.",
+          "Systems and Networking, High Performance and Scientific Computing",
+          "computer architecture, domain-specific architecture design, near memory processing, reconfigurable computing",
+          "Ph.D., Georgia Institute of Technology, 2021",
+          "CS, UMIACS"
+
+        ],
+        [
+          "Abhinav Bhatele is an associate professor in the Department of Computer Science, and director of the Parallel Software and Systems Group at the University of Maryland, College Park. His research interests are broadly in systems and networks, with a focus on parallel computing and large-scale data analytics. He has published research in parallel programming models and runtimes, network design and simulation, applications of machine learning to parallel systems, parallel deep learning, and on analyzing/visualizing, modeling and optimizing the performance of parallel software and systems.", 
+          "High Performance and Scientific Computing, Systems and Networking",
+          "Ph. D., University of Illinois at Urbana-Champaign, 2010",
+          "CS, UMIACS, AMSC",
+          "2021 Award NSF NSF CAREER",
+          "2016AwardIPDPSBest Paper Award"
+        ],
+        [
+          "Prof. Abadi performs research on database system architecture and implementation, especially at the intersection with scalable and distributed systems. He is best-known for the development of the storage and query execution engines of the C-Store (column-oriented database) prototype, which was commercialized by Vertica and eventually acquired by Hewlett-Packard and for his HadoopDB research on fault tolerant scalable analytical database systems which was commercialized by Hadapt and acquired by Teradata in 2014, and deterministic, scalable, transactional, distributed systems such as Calvin which is currently being commercialized by Fauna. Abadi has been a recipient of a Churchill Scholarship, a NSF CAREER Award, a Sloan Research Fellowship, a VLDB Best Paper Award, two VLDB \"Test of Time\" Awards (one for C-Store and one for HadoopDB), the 2008 SIGMOD Jim Gray Doctoral Dissertation Award, the 2013-2014 Yale Provost's Teaching Prize, and the 2013 VLDB Early Career Researcher Award. He was the PhD dissertation advisor of Alexander Thomson's and Jose Falerio's PhD dissertations, both of which won SIGMOD Jim Gray Doctoral Dissertation Awards (in 2015 and 2020 respectively)",
+          "Databases and Big Data, Systems and Networking",
+          "Ph.D.,MIT 2008",
+          "CS, UMIACS",
+          "2020 Fellow ACM ACM Fellow",
+          "2019 Award VLDB Test of Time Award"
+        ]
+      ],
+      "labels": [
+        [
+          "Biography", 
+          "Research Areas",
+          "Research Interests",
+          "Education",
+          "Appointments"
+        ],
+        [
+          "Biography", 
+          "Research Areas",
+          "Education",
+          "Appointments",
+          "Awards",
+          "Awards"
+        ],
+        [
+          "Biography", 
+          "Research Areas",
+          "Education",
+          "Appointments",
+          "Awards",
+          "Awards"
+        ]
+      ]
+    },
+    "test" : {
+        "url" : "https://www.cs.umd.edu/people/tomg",
+        "Research Areas" : ["AI and Robotics, Computer Vision and Machine Perception, High Performance and Scientific Computing, Machine Learning and Data Science"],
+        "Research Interests": ["Optimization, machine learning, computer vision"],
+        "Biography" : ["Tom Goldstein is the Perotto Associate Professor of Computer Science at University of Maryland. His research lies at the intersection of machine learning and optimization, and targets applications in computer vision and signal processing. He works at the boundary between theory and practice, leveraging mathematical foundations, complex models, and efficient hardware to build practical, high-performance systems. He design optimization methods for a wide range of platforms ranging from powerful cluster/cloud computing environments to resource limited integrated circuits and FPGAs. Before joining the faculty at Maryland, Tom completed his PhD in Mathematics at UCLA, and was a research scientist at Rice University and Stanford University. Tom have been the recipient of several awards, including SIAM’s DiPrima Prize, a DARPA Young Faculty Award, and a Sloan Fellowship."],
+        "Appointments" : ["CS, UMIACS, ECE"],
+        "Education": ["PhD, UCLA, 2010", "BA, Washington University, 2006"],
+        "Awards" : ["2017 Fellowship Sloan Research Fellowship"]
+    }
+  },
+  "Caltech": {
+    "train": {
+      "urls": ["https://eas.caltech.edu/people/yaser","https://eas.caltech.edu/people/jess"],
+      "texts": [
+        [
+          "The Learning Systems Group at Caltech studies the theory and applications of Machine Learning (ML). The theory of ML uses mathematical and statistical tools to estimate the information (data and hints) needed to learn a given task. The applications are very diverse and continue to expand to every corner of science and technology. The group works on medical applications of ML, on e-commerce and profiling applications, and on computational finance, among other domains. These applications use the latest techniques of neural networks and other models, and often give rise to novel ML theory and algorithms. Our latest projects are data-driven approach to predicting the spread of COVID-19 in every U.S. county, and ML approach to medical diagnostics using low-resolution ultrasound.",
+          "machine learning, artificial intelligence, neural networks, computational finance, probability and statistics"
+        ],
+        [
+          "geochemical investigations of past climates using corals, sediments and their interstitial waters, rate of deep ocean circulation and its relation to mechanisms of rapid climate changes, metals as tracers of environmental processes, radiocarbon and U-series chronology, chemical oceanography", 
+          "Professor Adkins focuses on geochemical investigations of past climates using corals, sediments and their interstitial waters; Rate of deep ocean circulation and its relation to mechanisms of rapid climate changes; Metals as tracers of environmental processes; Radiocarbon and U-series chronology. Chemical oceanography."
+        ]
+      ],
+      "labels": [
+        ["Research Interests", "Research Areas"],["Research Areas", "Research Interests"]
+      ]
+    },
+    "test" : {
+        "url" : "https://eas.caltech.edu/people/adames",
+        "Research Areas" : ["Bipdal robotics, hybrid systems, Zeno behavior, prosthetic devices.  Theoretical foundations with practical applications to human inspired bipedal walking."],
+        "Research Interests": ["Professor Ames' research interests center on robotics, nonlinear control, hybrid systems and cyber-physical systems, with special emphasis on foundational theory and experimental realization on robotic systems; his lab designs, builds and tests novel bipedal robots and prosthesis with the goal of achieving human-like bipedal robotic walking and translating these capabilities to robotic assistive devices."]
+    }
+  }
+}

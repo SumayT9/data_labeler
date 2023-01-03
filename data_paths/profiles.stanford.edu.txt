@@ -1,5 +1,0 @@
-biography|/html/body/div/main/div/section[2]/div[2]/div/div[1]/div/div[1]/div[1]/p|/html/body/div/main/div/div/section[2]/div/div[2]/div/div[1]/div/div/div[1]/div[1]/div/p
-biography|/html/body/div/main/div/section[2]/div[2]/div/div[1]/div/div[1]/div[1]/p|/html/body/div/main/div/div/section[2]/div/div[2]/div/div[1]/div/div/div[1]/div[1]/div/p
-awards|/html/body/div/main/div/section[2]/div[2]/div/div[1]/div/div[1]/div[4]/ul|/html/body/div/main/div/div/section[2]/div/div[2]/div/div[1]/div/div/div[1]/div[4]/div/ul/li[1]/div
-education|/html/body/div/main/div/section[2]/div[2]/div/div[1]/div/div[1]/div[6]/ul|/html/body/div/main/div/div/section[2]/div/div[2]/div/div[1]/div/div/div[1]/div[6]/div/ul/li[1]/div
-education|/html/body/div/main/div/section[2]/div[2]/div/div[1]/div/div[1]/div[6]/ul|/html/body/div/main/div/div/section[2]/div/div[2]/div/div[1]/div/div/div[1]/div[6]/div/ul/li[1]/div

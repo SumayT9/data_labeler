@@ -55,7 +55,7 @@ def train_wrapper(request):
 
 
     wi = WrapperInductor(urls=urls, texts=texts, labels=labels)
-    wi.save("../data_paths/" + sitename + "_wrapper.json")
+    wi.save("../data_paths/")
 
 
     with open("../data_paths/" + sitename + ".json", "w") as data_file:

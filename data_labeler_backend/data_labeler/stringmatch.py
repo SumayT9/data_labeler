@@ -48,11 +48,13 @@ class RegexGenerator:
             if curr.count >= len(self.strings):
                 out += curr.char
             else:
-                out += "."
-        while out.count("..") > 0:
-            out = out.replace("..", ".")
-        out = out.replace(".", ".*")
+                out += ".--"
+        while out.count(".--.--") > 0:
+            out = out.replace(".--.--", ".--")
+        out = out.replace(".--", ".*")
         out = out.replace("+", "\+")
+        out = out.replace("[", "\[")
+        out = out.replace("/", "\/")
         return out
     
     def generate_regex_equal_len(self):
@@ -67,12 +69,14 @@ class RegexGenerator:
             if agree:
                 out += c
             else:
-                out += "."
+                out += ".--"
         
-        while out.count("..") > 0:
-            out = out.replace("..", ".")
-        out = out.replace(".", ".*")
+        while out.count(".--.--") > 0:
+            out = out.replace(".--.--", ".--")
+        out = out.replace(".--", ".*")
         out = out.replace("+", "\+")
+        out = out.replace("[", "\[")
+        out = out.replace("/", "\/")
         return out
 
 

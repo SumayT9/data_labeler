@@ -12,7 +12,7 @@ document.getElementById("extract").onclick = async () => {
       page_url = tabs[0].url;
       chrome.scripting.executeScript({
         target:{tabId : tabs[0].id},
-        files : ['scripts/content.js']
+        files : ['scripts/label_visualization.js']
       })
     })
 //       chrome.runtime.sendMessage({url: page_url }, function(response){ 
