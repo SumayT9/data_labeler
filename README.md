@@ -95,9 +95,9 @@ Go to [our shared google Drive space](https://drive.google.com/drive/folders/1rx
 ```
 
 ## Demo video
-Make sure to include a video showing your module in action and how to use it in this section. Github Pages doesn't support this so I am unable to do this here. However, this can be done in your README.md files of your own repo. Follow instructions [here](https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md) of the accepted answer 
 
 
+[![](https://img.youtube.com/mQZqBdbyiJk/maxresdefault.jpg)](https://youtu.be/mQZqBdbyiJk)
 ## Algorithmic Design 
 
 First, we select a set of 2-4 labeled "seed" pages representing researchers from a certain site, which are used to train the extraction system. The program takes the xpaths and attributes of the labeled text in addition to the text preceding the labeled data by analyzing the DOM tree, and generates regular expressions that match the attributes, xpaths, and preceding text for each data field. These are stored in the form of a dictionary with the keys as the labels of the extractable fields from a page and the values being the regular expression that matches all instances of that label across all seed sites.
@@ -108,9 +108,7 @@ The algorithm for generating regular expressions for a set of strings is as foll
 First, all the strings in the set are inserted into the trie, which also keeps track of the number of times it is used. Then, the trie is traversed in post-order. During the traversal, if a node in the trie is identical to a node previously seen (it has the same letter and the same outgoing transitions), then the nodes are merged and count increased (because it is then used multiple times in traversing the string set), thus minimizing it. After minimization process is complete, then nodes that have a count equal to the number of strings are kept as literals in the regex, while sections in the trie that do not belong to all strings are replaced by ".*".
 
 
-![design architecture](https://github.com/Forward-UIUC-2021F/guidelines/blob/main/template_diagrams/sample-design.png)
-
-
+![design architecture](https://github.com/SumayT9/data_labeler/blob/main/F2022%20System%20Architecture.drawio.png)
 
 
 
