@@ -95,9 +95,9 @@ Go to [our shared google Drive space](https://drive.google.com/drive/folders/1rx
 ```
 
 ## Demo video
+<img width="718" alt="Screen Shot 2023-01-03 at 10 39 40 AM" src="https://user-images.githubusercontent.com/63134346/210290297-99f05a08-297c-45b9-b89b-2c68489e58e6.png">(https://youtu.be/mQZqBdbyiJk)
 
-
-[![](https://img.youtube.com/mQZqBdbyiJk/maxresdefault.jpg)](https://youtu.be/mQZqBdbyiJk)
+    
 ## Algorithmic Design 
 
 First, we select a set of 2-4 labeled "seed" pages representing researchers from a certain site, which are used to train the extraction system. The program takes the xpaths and attributes of the labeled text in addition to the text preceding the labeled data by analyzing the DOM tree, and generates regular expressions that match the attributes, xpaths, and preceding text for each data field. These are stored in the form of a dictionary with the keys as the labels of the extractable fields from a page and the values being the regular expression that matches all instances of that label across all seed sites.
